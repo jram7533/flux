@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flux Unlimited</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+	<link href="images/favicon.png" rel="icon">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+	<style>
+		body {
+			margin: 0;
+			background-image: url('images/bg.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			box-sizing: border-box;
+			font-family: 'Maven Pro', sans-serif;
+			color: #EEE;
+			background-opacity: .4; 
+		}
+		
+		.content {
+			background-color: rgba(0,0,100,.7);
+			max-width: 1024px;
+			min-width: 360px;
+			margin: auto;
+			border: 2px solid #005;
+			font-size: 1.2em;
+			border: 4px double #eee;
+			border-radius: 10px;
+		}
+		
+		.content a {
+			text-decoration: none;
+			color: gold;
+		}
+		
+		.content a:hover {
+			color: #eee;
+			background: #500;
+		}
+		
+		header, nav {
+			margin: 0;
+			width: 100%;
+			background-color: #2b39c6;
+			height: 250px;
+			min-height: 100px;
+			font-family: 'Audiowide', cursive;
+			color: #EEE;
+		}
+		
+		header {
+			border-bottom: 4px double #EEE;
+		}
+		
+		nav {
+			height: 25px;
+			min-height: 25px;
+		}
+		
+		nav a {
+			width: 200px;
+			margin-right: 15px;
+			text-decoration: none;
+			color: #EEE;
+			font-family: 'Maven Pro'; sans-serif;
+		}
+		
+		nav a:first-child {
+			margin-left: 30%;
+		}
+		
+		nav a:hover {
+			color: rgba(0,0,100,.7);
+			background-color: #eee;
+		}
+		
+		header h1, header h2 {
+			text-align: right;
+			padding-right: 20px;
+			font-family: 'Audiowide', cursive;
+			width: 100%;
+			border: 0;
+			margin: 0;
+		}
+		
+		h1, h2 {
+			text-align: center;
+			font-family: 'Maven Pro', sans-serif;
+			color: #EEE;
+		}
+		
+		h2 {
+			text-align: left;
+			margin-left: 4em;
+			width: 50%;
+			border-bottom: 1px solid #EEE;
+		}
+		
+		.floatLeft {
+			display: block;
+			float: left;
+			margin-right: 25px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		
+		.floatRight {
+			display: block;
+			float: right;
+			margin-left: 25px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		
+		.clearBoth {
+			clear: both;
+		}
+		
+		ul {
+			width: 75%;
+			margin-left: 8em;
+			list-style-type: circle;
+		}
+		
+		p {
+			width: 75%;
+			margin: auto;
+		}
+		
+	</style>
+</head>
+<body>
+	
+	<header class="w3-display-container">
+		<div class="w3-display-left">
+			<img src="images/flux03.jpg" alt="Flux banner" class="w3-image" height="190px;">
+		</div>
+		<div class="w3-display-right">
+			<h1 style="font-family: 'Audiowide', cursive; font-weight:bold;">Flux Unlimited</h1>
+			<h2 style="font-family: 'Audiowide', cursive; font-weight:bold;">Digital Ambrosia for a Hungry World</h2>
+		</div>
+	</header>
+	
+	<nav class='navbar' style="position:fixed; top:0; z-index:1; margin-bottom: 25px;">
+		<a href="#who">Who We Are</a>
+		<a href="#what">Serving Your Needs</a>
+		<a href="#saas">SaaS</a>
+		<a href="#iaas">IaaS</a>
+		<a href="#paas">PaaS</a>
+		<a href="#pc">Private Cloud</a>
+		<a href="#hc">Hybrid Cloud</a>
+	</nav>
+	<h2 id="who" style="border:0"><br></h2>
+	<div class="w3-container content">
+		<h1>Flux Unlimited</h1>
+		
+		<h2 class="clearBoth">Who We Are</h2>
+		<p>
+			Flux Unlimited is a new company offering a wide variety of cloud-based solutions to our clients. Leveraging the power of Amazon Web Services, we can put our expertise to use to solve all of your digital needs. Just a few of the services we offer are
+		</p>
+		<ul>
+			<li>Web Hosting</li>
+			<li>Cloud Storage</li>
+			<li>Web Application Development</li>
+			<li>Data Archiving</li>
+			<li><a href="#saas">SaaS</a></li>
+			<li><a href="#iaas">IaaS</a></li>
+			<li><a href="#paas">PaaS</a></li>
+			<li><a href="#pc">Private Cloud</a></li>
+			<li><a href="#hc">Hybrid Cloud</a></li>
+		</ul>
+		
+		<h2 class="clearBoth">Serving Your Needs</h2>
+		<p>
+			Our marketing and development pros are ready to implement digital solutions to fit your needs, big or small. Need a new mobile app? We can do that. Want to create a global content delivery network. We got it. Web services? We're all over it! Develop cloud-native applications, fuel innovation with data and analytics, re-imagine transactional applications with blockchain, leverage cloud for development and testing, create and extend cloud-native and legacy applications and data, build and scale existing apps in the public cloud...any need, we can create your personal solution.
+		</p>
+		
+		<h2 id="what" style="border:0"><br></h2>
+		<h2 class="clearBoth">What is the Cloud?</h2>
+		<p>
+			<img src="images/cloud.jpg" alt="Cloud image" class="w3-image floatRight" style="width:200px;">
+			The “cloud” in cloud computing originated from the habit of drawing the internet as a fluffy cloud in network diagrams. No wonder the most popular meaning of cloud computing refers to running workloads over the internet remotely in a commercial provider’s data center—the so-called “public cloud” model. AWS (Amazon Web Services), Salesforce’s CRM system, and Google Cloud Platform all exemplify this popular notion of cloud computing.
+		</p>
+		<p>
+			<img src="images/cloud2.jpg" alt="Cloud image" class="w3-image floatLeft" style="width:200px;">
+			But there’s another, more precise meaning of cloud computing: the virtualization and central management of data center resources as software-defined pools. This technical definition of cloud computing describes how public cloud service providers run their operations. The key advantage is agility: the ability to apply abstracted compute, storage, and network resources to workloads as needed and tap into an abundance of pre-built services.
+		</p>
+		<p>
+			From a customer perspective, the public cloud offers a way to gain new capabilities on demand without investing in new hardware or software. Instead, customers pay their cloud provider a subscription fee or pay for only the resources they use. Simply by filling in web forms, users can set up accounts and spin up virtual machines or provision new applications. More users or computing resources can be added on the fly—the latter in real time as workloads demand those resources thanks to a feature known as auto-scaling.
+		</p>
+		
+		<h1>Types of Cloud Services</h1>
+		<p>The array of available cloud computing services is vast, but most fall into one of the following categories:</p>
+		
+		<h2 id="saas" style="border:0"><br></h2>
+		<h2 class="clearBoth">SaaS (software as a service)</h2>
+		<p>
+			<img src="images/saas.jpg" alt="Software as a service" class="w3-image floatRight">
+			This type of public cloud computing delivers applications over the internet through the browser. The most popular SaaS applications for business can be found in Google’s G Suite and Microsoft’s Office 365; among enterprise applications, Salesforce leads the pack. But virtually all enterprise applications, including ERP suites from Oracle and SAP, have adopted the SaaS model. Typically, SaaS applications offer extensive configuration options as well as development environments that enable customers to code their own modifications and additions.
+		</p>		
+		
+		<h2 id="iaas" style="border:0"><br></h2>
+		<h2 class="clearBoth">Infrastructure as a Service</h2>
+		<p>
+			<img src="images/iaas.jpg" alt="Infrastructure as a service" class="w3-image floatLeft">
+			At a basic level, IaaS public cloud providers offer storage and compute services on a pay-per-use basis. But the full array of services offered by all major public cloud providers is staggering: highly scalable databases, virtual private networks, big data analytics, developer tools, machine learning, application monitoring, and so on. Amazon Web Services was the first IaaS provider and remains the leader, followed by Microsoft Azure, Google Cloud Platform, and IBM Cloud.
+		</p>
+		
+		<h2 id="paas" style="border:0"><br></h2>
+		<h2 class="clearBoth">PaaS (platform as a service)</h2>
+		<p>
+			<img src="images/paas.png" alt="Software as a service" class="w3-image floatRight">
+			PaaS provides sets of services and workflows that specifically target developers, who can use shared tools, processes, and APIs to accelerate the development, test, and deployment of applications. Salesforce’s Heroku and Force.com are popular public cloud PaaS offerings; Pivotal’s Cloud Foundry and Red Hat’s OpenShift can be deployed on premises or accessed through the major public clouds. For enterprises, PaaS can ensure that developers have ready access to resources, follow certain processes, and use only a specific array of services, while operators maintain the underlying infrastructure.
+		</p>
+		
+		<h2 id="faas" style="border:0"><br></h2>
+		<h2 class="clearBoth">FaaS (functions as a service)</h2>
+		<p>
+			<img src="images/faas.png" alt="Functions as a service" class="w3-image floatLeft" style="width: 200px;">
+			FaaS, the cloud instantiation of serverless computing, adds another layer of abstraction to PaaS, so that developers are completely insulated from everything in the stack below their code. Instead of futzing with virtual servers, containers, and application runtimes, they upload narrowly functional blocks of code, and set them to be triggered by a certain event (e.g. a form submission or uploaded file). All the major clouds offer FaaS on top of IaaS: AWS Lambda, Azure Functions, Google Cloud Functions, and IBM OpenWhisk. A special benefit of FaaS applications is that they consume no IaaS resources until an event occurs, reducing pay-per-use fees.
+		</p>
+		
+		<h2 id="pc" style="border:0"><br></h2>		
+		<h2 class="clearBoth">Private cloud</h2>
+		<p>
+			<img src="images/privatecloud.png" alt="Infrastructure as a service" class="w3-image floatRight">
+			The private cloud downsizes the technologies used to run IaaS public clouds into software that can be deployed and operated in a customer’s data center. As with a public cloud, internal customers can provision their own virtual resources in order to build, test, and run applications, with metering to charge back departments for resource consumption. For administrators, the private cloud amounts to the ultimate in data center automation, minimizing manual provisioning and management. VMware’s Software Defined Data Center stack is the most popular commercial private cloud software, while OpenStack is the open source leader.
+		</p>
+		
+		<h2 id="hc" style="border:0"><br></h2>
+		<h2 class="clearBoth">Hybrid cloud</h2>
+		<p>
+			<img src="images/hybridcloud.jpg" alt="Infrastructure as a service" class="w3-image floatLeft">
+			A hybrid cloud is the integration of a private cloud with a public cloud. At its most developed, the hybrid cloud involves creating parallel environments in which applications can move easily between private and public clouds. In other instances, databases may stay in the customer data center and integrate with public cloud applications—or virtualized data center workloads may be replicated to the cloud during times of peak demand. The types of integrations between private and public cloud vary widely, but they must be extensive to earn a hybrid cloud designation.
+		</p>
+		
+	</div>
+	
+	<script>
+			window.requestAnimFrame = (function(){
+			return  window.requestAnimationFrame       ||
+							window.webkitRequestAnimationFrame ||
+							window.mozRequestAnimationFrame    ||
+							function(callback){
+								window.setTimeout(callback, 1000 / 60);
+							};
+			})();
+			/**
+			*  @param {number} scrollTargetY
+			*  @param {number} [speed]  - scroll speed, default value 1500
+			*  @param {string} [easing] - scroll type 'easeOutSine', 'easeInOutSine' or 'easeInOutQuint', default value easeInOutQuint
+			*/
+			function scrollToY(scrollTargetY, speed, easing) {
+
+			var scrollY = window.scrollY || document.documentElement.scrollTop,
+					currentTime = 0;
+
+			scrollTargetY = scrollTargetY || 0;
+			speed = speed || 2000;
+			easing = easing || 'easeOutSine';
+
+			var time = Math.max(0.1, Math.min(Math.abs(scrollY - scrollTargetY) / speed, 0.8));
+
+			var easingEquations = {
+
+				easeOutSine: function (pos) {
+					return Math.sin(pos * (Math.PI / 2));
+				},
+				easeInOutSine: function (pos) {
+					return (-0.5 * (Math.cos(Math.PI * pos) - 1));
+				},
+				easeInOutQuint: function (pos) {
+					if ((pos /= 0.5) < 1) {
+						return 0.5 * Math.pow(pos, 5);
+					}
+					return 0.5 * (Math.pow((pos - 2), 5) + 2);
+				}
+			};
+
+			function tick() {
+
+				currentTime += 1 / 60;
+
+				var p = currentTime / time;
+				var t = easingEquations[easing](p);
+
+				if (p < 1) {
+					requestAnimFrame(tick);
+					window.scrollTo(0, scrollY + ((scrollTargetY - scrollY) * t));
+
+				} else {
+					window.scrollTo(0, scrollTargetY);
+				}
+			}
+
+			tick();
+			}
+
+			/**
+			*  @param {object} menu - menu selector
+			*/
+			function menuControl(menu) {
+
+			var scrollPos = window.scrollY || document.documentElement.scrollTop,
+					links     = menu.querySelectorAll('a[href^="#"]');
+
+			for(var i = 0; i < links.length; i++) {
+
+				var currLink   = links[i],
+						refElement = document.querySelector(currLink.getAttribute('href'));
+
+				if(refElement.offsetTop <= scrollPos && (refElement.offsetTop + refElement.clientHeight) > scrollPos) {
+					currLink.classList.add('active');
+
+				} else {
+					currLink.classList.remove('active');
+				}
+			}
+			}
+
+			/**
+			*  @param {object} menu     - menu selector
+			*  @param {number} [speed]  - scroll speed, default value 1500
+			*  @param {string} [easing] - scroll type 'easeOutSine', 'easeInOutSine' or 'easeInOutQuint', default value easeInOutQuint
+			*/
+			function animated(menu, speed, easing) {
+
+			var i, links = menu.querySelectorAll('a[href^="#"]');
+
+			function control(e) {
+
+				e.preventDefault();
+
+				var target = document.querySelector(this.hash);
+				scrollToY(target.offsetTop, speed, easing);
+			}
+
+			for(i = 0; i < links.length; i++) {
+
+				var link = links[i];
+				link.addEventListener('click', control);
+			}
+			}
+
+			/**
+			*  @param {object} menu     - menu selector
+			*  @param {number} [speed]  - scroll speed, default value 1500
+			*  @param {string} [easing] - scroll type 'easeOutSine', 'easeInOutSine' or 'easeInOutQuint', default value easeInOutQuint
+			*/
+			function scrollSpy(menu, speed, easing) {
+
+			animated(menu, speed, easing);
+
+			document.addEventListener('scroll', function() {
+				menuControl(menu);
+			});
+		}
+	</script>
+	<script>
+    var menu = document.querySelector('.navbar');
+    scrollSpy(menu);
+  </script>
+  
+  
+</body>
+</html>
